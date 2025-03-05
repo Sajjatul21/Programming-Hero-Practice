@@ -6,8 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <style>
+        #short {
+            color: red;
+            text-align: center;
+        }
+
+        #embedded {
+            font-size: large;
+            font-weight: bolder;
+        }
+
+        .player {
+            text-align: center;
+        }
+
         p {
             background-color: chartreuse;
+            width: 50%;
         }
 
         li {
@@ -20,15 +35,15 @@
 <body>
     <h3 style="color: red;">Learning Basic CSS</h3>
     <p style="background-color: chocolate;">CSS Meaning : Cascading Style sheet</p>
-    <p>Style is colorful</p>
-    <p>short form in css</p>
+    <p id="short">Style is colorful</p>
+    <p class="player">short form in css</p>
 
-    <p>need Style rule and value separated by colon</p>
-    <p>after each styles you need to using semi-clone</p>
+    <p class="player">need Style rule and value separated by colon</p>
+    <p class="player">after each styles you need to using semi-clone</p>
 
     <ul>
         <li>inline CSS</li>
-        <li>Internal css/ embedded</li>
+        <li id="embedded">Internal css/ embedded</li>
         <li>External css</li>
 
     </ul>
