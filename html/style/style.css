@@ -5,5 +5,10 @@
 
     .second {
         /* visibility: hidden; */
-        display: none;
+        /* display: none; */
+    }
+
+    .header {
+        height: 300px;
+        background-color: bisque;
     }
