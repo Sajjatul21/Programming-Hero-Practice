@@ -20,3 +20,11 @@
         /* background-size: 200px; */
 
     }
+
+    .dolor {
+        /* display: block; */
+        display: inline-block;
+        /* height: 400px; */
+        margin: 40px;
+        color: red;
+    }
