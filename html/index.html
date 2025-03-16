@@ -10,6 +10,18 @@
 
     </style>
     <title>Document</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,24 +30,18 @@
     </header>
 
     <main>
-        <section>
-            <h2>Please fill up the form</h2>
-            <form>
-                <label for="name">Your Name
-                    <input type="text" name="" id="name" placeholder="your name">
-                </label>
-                <br>
-                <br>
-                <label for="email"> Your Email
-                    <input type="email" name="" id="email" placeholder="Your email">
-                </label>
-                <br>
-                <br>
-                <label for="phone">Your phone
-                    <input type="text" name="" id="phone" placeholder="Your phone">
-                </label>
-            </form>
-        </section>
+        <header>
+            <nav>
+                <div>
+                    <a href="">Home</a>
+                    <a href="">Profile</a>
+                    <a href="">Blog</a>
+                    <a href="">About</a>
+                </div>
+                <a href="">Login</a>
+
+            </nav>
+        </header>
     </main>
 </body>
 
